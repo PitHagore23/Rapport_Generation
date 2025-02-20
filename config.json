@@ -1,0 +1,5 @@
+{
+  "template_file": "../test/template.docx",
+  "xml_file": "../test/data.xml",
+  "output_file": "../test/report.docx"
+}
