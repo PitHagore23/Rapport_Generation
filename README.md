@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Test the Application
 
 ```sh
-python src/rapport_generator.py
+python src/main.py
 ```
 
 ## Usage
@@ -47,14 +47,21 @@ nano config.json
 
 ```json
 {
-    "template": "new_template_path.docx",
-    "output": "new_output_path.docx",
-    "data": "new_data_path.xml"
+    "template_dir": "../Template_Directory/",
+    "templates": [
+        "template.docx",
+        "template2.docx",
+        "template3.docx"
+    ],
+    "default_template": "template.docx",
+    "current_template": "template.docx",
+    "xml_file": "../Template_Directory/data.xml",
+    "output_file": "../Template_Directory/report.docx"
 }
 ```
 
 ### Step 3: Run the Application
 
 ```sh
-python src/rapport_generator.py
+python src/main.py
 ```

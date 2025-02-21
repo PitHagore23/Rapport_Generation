@@ -1,5 +1,12 @@
 {
-  "template_file": "../test/template.docx",
-  "xml_file": "../test/data.xml",
-  "output_file": "../test/report.docx"
+    "template_dir": "../Template_Directory/",
+    "templates": [
+        "template.docx",
+        "template2.docx",
+        "template3.docx"
+    ],
+    "default_template": "template.docx",
+    "current_template": "template.docx",
+    "xml_file": "../Template_Directory/data.xml",
+    "output_file": "../Template_Directory/report.docx"
 }
