@@ -4,7 +4,7 @@ import shutil
 import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog
 from tkinterdnd2 import DND_FILES, TkinterDnD
-from report_generator import generate_report
+from src.report_generator import generate_report
 
 def on_drop(event, status_label):
     xml_file = event.data

@@ -6,7 +6,7 @@
         "template3.docx"
     ],
     "default_template": "template.docx",
-    "current_template": "template.docx",
+    "current_template": "template2.docx",
     "xml_file": "../Template_Directory/data.xml",
     "output_file": "../Template_Directory/report.docx"
 }
